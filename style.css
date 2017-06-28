@@ -1,0 +1,148 @@
+/*
+font info:
+    family - Helvetica, Arial, sans-serif
+    line-height - 1.6
+
+
+colors:
+    light gray - ##eee
+    gray - #dddddd
+    yellow - #ffd24a
+    orange - #ff8523
+    blue - #1fabe5
+    dark blue - #046c97
+*/
+
+/*
+    Colors from: https://color.adobe.com/doodoomchit-color-theme-9578264/edit/?copy=true
+*/
+
+.city_container{
+  padding: 5px;
+
+}
+
+body{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 90%;
+    line-height: 1.6;
+    background-color: #ddd;
+}
+body > div{
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background: white;
+
+
+    box-shadow: 0 0 6px rgba( 0, 0, 0, 0.2 );
+}
+td img {
+  width: 40px;
+  height: auto;
+}
+a{
+    font-weight: bold;
+    color: #1fabe5;
+}
+
+a:hover{
+    color: #D14720;
+}
+
+#page_content {
+  padding: 10px;
+
+}
+
+h1, h2, h3 {
+  color: #1fabe5;
+  font-weight: bold;
+    margin-top: 1.8em;
+    margin-bottom: 0;
+}
+
+h1{
+    color: #1fabe5;
+    font-weight: bold;
+}
+
+h2{
+    color: #1fabe5;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+ul{
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    width: 40%;
+}
+
+table {
+  border: 0.5px solid;
+  border-collapse:collapse;
+}
+
+tbody td {
+  border: 1px solid #1fabe5;
+
+}
+thead td {
+  border: 1px solid #046c97;
+  background-color: #1fabe5;
+  color: white;
+  padding: 5px;
+
+}
+form {
+  background-color: #dddddd;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.name {
+  background-color: #ff8523;
+  padding: 8px;
+  color: white;
+  border-radius: 5px;
+}
+
+
+#logo{
+    text-align: right;
+    background-color: #ff8523;
+    margin-top:20%;
+    margin-bottom: 0.6em;
+    font-size: 5em;
+    text-transform: uppercase;
+    padding: 12px; 12px; 12px;
+
+}
+
+#site_header {background-color:#ff8523;}
+.main_navigation {color: white;
+    padding: 12px; 12px; 12px;
+    padding-bottom: 5%;
+
+
+}
+
+.main_navigation a{
+    color: white;
+    padding: 0.5em 2em;
+    text-decoration: none;
+    border: 1px solid white;
+    font-weight: bold;
+}
+
+.main_navigation a:hover{
+    color: white;
+    background-color: #D1D67C;
+}
